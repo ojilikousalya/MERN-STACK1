@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Registration Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            border-radius: "20px";
+            
+        }
+        h2 {
+            color: rgb(93, 17, 234);
+            font-size: 30px;
+            text-align: center;
+
+        }
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        textarea,
+        select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+        }
+        input[type="radio"],
+        input[type="checkbox"] {
+            margin-right: 10px;
+        }
+        input[type="submit"],
+        input[type="reset"] {
+            padding: 10px 15px;
+            background-color: blue;
+            color: white;
+            border: none;
+            cursor: pointer;
+            margin-right: 5px;
+        }
+        input[type="submit"]:hover,
+        input[type="reset"]:hover {
+            background-color: darkblue;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Employee Registration Form</h2>
+
+    <form action="#" method="post">
+        <!-- Gender Selection -->
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="Mr." checked> Mr.
+        <input type="radio" name="gender" value="Mrs."> Mrs.
+        <input type="radio" name="gender" value="Ms."> Ms.
+
+        <!-- First Name and Last Name -->
+        <label for="firstname">First Name:</label>
+        <input type="text" id="firstname" name="firstname" placeholder="FirstName">
+
+        <label for="lastname">Last Name:</label>
+        <input type="text" id="lastname" name="lastname" placeholder="LastName">
+
+        <!-- Mail Address -->
+        <label for="mail1">Mail Address 1:</label>
+        <input type="text" id="mail1" name="mail1" placeholder="MailAddress1">
+
+        <label for="mail2">Mail Address 2:</label>
+        <input type="text" id="mail2" name="mail2" placeholder="MailAddress2">
+
+        <!-- City and State -->
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city">
+
+        <label for="state">State:</label>
+        <select id="state" name="state">
+            <option value="Gujarat">Gujarat</option>
+            <option value="Maharashtra">Maharashtra</option>
+            <option value="Rajasthan">Rajasthan</option>
+            <option value="Punjab">Punjab</option>
+        </select>
+
+        <!-- Zip Code -->
+        <label for="zip">Zip Code:</label>
+        <input type="text" id="zip" name="zip">
+
+        <!-- Photo Upload -->
+        <label for="photo">Upload Photo:</label>
+        <input type="file" id="photo" name="photo">
+
+        <!-- Email and Mobile -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+
+        <label for="mobile">Mobile:</label>
+        <input type="tel" id="mobile" name="mobile" placeholder="+91">
+
+        <!-- Language Known -->
+        <label>Languages Known:</label>
+        <input type="checkbox" name="language" value="Gujarati" checked> Gujarati
+        <input type="checkbox" name="language" value="Hindi" checked> Hindi
+        <input type="checkbox" name="language" value="English" checked> English
+        <input type="checkbox" name="language" value="Marathi"> Marathi
+
+        <!-- Additional Information -->
+        <label for="additional-info">Additional Information:</label>
+        <textarea id="additional-info" name="additional-info" rows="4"></textarea>
+
+        <!-- Submit and Reset Buttons -->
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+
+</body>
+</html>
+
+          
+            

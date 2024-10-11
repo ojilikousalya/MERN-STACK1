@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Formatting and Background Image</title>
+    <style>
+        body {
+            
+            background-image: url('backgroung-image.jpg'); /* Replace with your image path */
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+        }
+            
+        
+        h1 {
+            color: blue;
+        }
+        p {
+            font-size: 16px;
+        }
+        .bold-text {
+            font-weight: bold;
+        }
+        .important-text {
+            font-weight: bold;
+            color: orange;
+        }
+        .italic-text {
+            font-style: italic;
+        }
+        .small-text {
+            font-size: small;
+        }
+        .marked-text {
+            background-color: rgb(231, 96, 11);
+        }
+        .deleted-text {
+            text-decoration: line-through;
+        }
+        .inserted-text {
+            text-decoration: underline;
+        }
+        .subscript-text {
+            vertical-align: sub;
+            font-size: smaller;
+        }
+        .superscript-text {
+            vertical-align: super;
+            font-size: smaller;
+        }
+        .background-text {
+            background-color: rgb(241, 27, 145);
+            color: blue;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+
+    <p>HTML means hypertext markup language which means linking one page to another page or used to link web pages.</p>
+    <p>This text is <span class="bold-text">bold</span></p>
+    <p>This text is <span class="important-text">very important</span></p>
+    <p>This text is <span class="italic-text">italic</span></p>
+    <p>This text is <span class="small-text">small</span></p>
+    <p>This is an example for <span class="marked-text">mark</span> text</p>
+    <p>This is an example for <span class="deleted-text">delete</span> text</p>
+    <p>This is an example for <span class="inserted-text">insert</span> text</p>
+    <p>This is an example for <span class="subscript-text">subscript</span> text</p>
+    <p>This is an example for <span class="superscript-text">superscript</span> text</p>
+    <p class="background-text">This is an example for background color</p>
+
+</body>
+</html>

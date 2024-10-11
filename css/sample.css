@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #f8f8f8;
+    padding: 10px 0;
+    border-bottom: 2px solid #ddd;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.logo h1 {
+    font-size: 24px;
+    color: #1a73e8;
+}
+
+.logo p {
+    font-size: 14px;
+    color: #555;
+}
+
+.contact-info {
+    display: flex;
+    gap: 30px;
+    font-size: 14px;
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #1a73e8;
+}
+
+/* Main Section */
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.text-content h2 {
+    font-size: 28px;
+    color: #333;
+}
+
+.text-content p {
+    font-size: 16px;
+    margin: 20px 0;
+    color: #666;
+}
+
+.get-started {
+    background-color: #1a73e8;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.get-started:hover {
+    background-color: #005bb5;
+}
+
+.image-content img {
+    width: 400px;
+    height: auto;
+}
+
+/* Courses Section */
+.courses {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.course-logos {
+    di
